@@ -10,7 +10,7 @@
 .screen{display:none;min-height:100vh;min-height:100svh;position:relative;z-index:1;padding:35px 18px;align-items:center;justify-content:center;flex-direction:column;text-align:center;isolation:isolate}
 .screen:before{content:"";position:absolute;inset:0;z-index:-2;background:var(--bg) center/cover no-repeat}
 .screen:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#10091f88,#10091fc9)}
-#welcome{--bg:url("images/bg-welcome.png")}#diya{--bg:url("images/bg-diya.png")}#memory{--bg:url("images/bg-memory.png")}#riddle{--bg:url("images/bg-riddle.png")}#gallery{--bg:url("images/bg-gallery.png")}#final{--bg:url("images/bg-final.png")}
+#welcome{--bg:url("bg-welcome.png")}#diya{--bg:url("bg-diya.png")}#memory{--bg:url("bg-memory.png")}#riddle{--bg:url("bg-riddle.png")}#gallery{--bg:url("bg-gallery.png")}#final{--bg:url("bg-final.png")}
 .screen.active{display:flex;animation:show .6s ease}@keyframes show{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 h1,h2{font-family:"Playfair Display",serif}h1{font-size:clamp(40px,8vw,68px);color:var(--gold);line-height:1.15;text-shadow:0 3px 20px #000}h2{font-size:clamp(28px,6vw,42px);color:var(--gold);margin-bottom:12px}
 .subtitle{color:#f5eafa;margin-top:14px;font-size:14px;line-height:1.85;text-shadow:0 2px 8px #000}.stars{color:var(--gold);letter-spacing:10px;margin-bottom:20px}.welcome-emoji{font-size:85px;margin-bottom:18px;filter:drop-shadow(0 0 20px #ffae42);animation:float 3s infinite ease-in-out}@keyframes float{50%{transform:translateY(-12px)}}
